@@ -21,7 +21,7 @@ const App = () => {
       <br />
       <br />
 
-      <textarea maxlength={charsize} limit style={{ fontSize: rangeval + 'px' }} onChange={handleChange} name="" id="" cols="30" rows="10"></textarea>
+      <textarea maxLength={charsize} style={{ fontSize: rangeval + 'px' }} onChange={handleChange} name="" id="" cols="30" rows="10"></textarea>
       <div id="word-counter">
         Total number of words written <span>{text.split(' ').filter(Boolean).length}</span>
       </div>
